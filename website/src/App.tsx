@@ -1,17 +1,13 @@
-import { BrowserRouter, Routes, Route} from "react-router-dom";
-import Marketplace from "./pages/Marketplace";
-import Login from "./pages/Login";
+import Navigation from "./components/Navigation/Navigation";
+import Header from "./components/Header/Header";
+import ListingsControl from "./components/Listings/ListingControls";
 
-
-//Sets up the routing for the marketplace page
 export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Marketplace />} />
-        <Route path="/marketplace" element={<Marketplace />} />
-        <Route path="/login" element={<Login />} />
-      </Routes>
-    </BrowserRouter>
+    <>
+      <Navigation />
+      <Header />
+      <ListingsControl />
+    </>
   );
 }

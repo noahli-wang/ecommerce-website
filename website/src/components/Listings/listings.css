@@ -1,0 +1,48 @@
+.listings-control {
+  padding: 48px 64px;
+}
+
+.controls-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.controls-row h2 {
+  font-family: Inter, serif;
+  font-size: 32px;
+  font-weight: SemiBold;
+}
+
+.sort-button {
+  background: none;
+  border: none;
+  font-size: 14px;
+  font-family: Inika, serif;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.chevron {
+  font-size: 12px;
+}
+
+.listing-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 24px;
+  padding-bottom: 80px;
+}
+
+.listing-card {
+  height: 160px;
+  border: 1px solid #777;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
