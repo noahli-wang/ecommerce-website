@@ -1,0 +1,100 @@
+/* full screen split */
+.signup-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.signup-left{
+    flex: 1.1;
+    height: 100vh;
+    background: #6f00a8;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Iridescence  */
+.signup-left .iridescence-root {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+
+/* LOGO */
+.signup-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: min(45vw, 320px);
+  height: auto;
+  z-index: 2;
+}
+
+.signup-right{
+    flex: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+}
+
+/*Sign Up Card Background*/
+.signup-card{
+    width: 100%;
+    max-width: 300px;
+    padding: 24px;
+    box-shadow: 1px solid #ccc;
+    border-radius: 6px;
+    background: #f9f9f9;
+}
+
+/*Sign Up Card Header*/
+.signup-card h2{
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+/*Input Fields*/
+.signup-card input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+
+/*Sign Up Button*/
+.signup-card button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 16px;
+    background: #6f00a8;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/*Sign Up Button Hover Effect*/
+.signup-card button:hover{
+    background: #5a0080;
+    opacity: 0.9;
+}
+
+
+/*Login Input*/
+.login-text{
+    text-align: center;
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+.login-text span{
+    color: #6a0dad;
+    cursor: pointer;
+}

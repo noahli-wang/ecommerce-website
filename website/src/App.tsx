@@ -1,13 +1,14 @@
-import Navigation from "./components/Navigation/Navigation";
-import Header from "./components/Header/Header";
-import ListingsControl from "./components/Listings/ListingControls";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import MarketplacePage from "./Pages/Marketplace/Marketplace";
+import SignupPage from "./Pages/SignIn/SignupPage";
 
 export default function App() {
   return (
-    <>
-      <Navigation />
-      <Header />
-      <ListingsControl />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<MarketplacePage />} />
+        <Route path="/signup" element={<SignupPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
