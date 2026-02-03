@@ -31,9 +31,9 @@ Core Features (Planned):
 How to Run:
 When the entire project is done, it will be on a domain 
 For Now Run these in Terminal:
-git clone https://github.com/noahli-wang/ecommerce-website
-cd ecommerce-website
-npm install
-npm run dev
+-git clone https://github.com/noahli-wang/ecommerce-website
+-cd ecommerce-website
+-npm install
+-npm run dev
 
 
