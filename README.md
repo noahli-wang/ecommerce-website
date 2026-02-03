@@ -30,9 +30,9 @@ Core Features (Planned):
 
 How to Run:
 
--git clone https://github.com/noahli-wang/ecommerce-website
--cd ecommerce-website
--npm install
--npm run dev
+- git clone https://github.com/noahli-wang/ecommerce-website
+- cd ecommerce-website
+- npm install
+- npm run dev
 
 
