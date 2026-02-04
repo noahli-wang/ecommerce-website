@@ -1,6 +1,7 @@
 import Iridescence from "../../components/Iridescence/Iridescence";
 import "./signup.css";
 import Logo from "../../assets/WesternLogo.png.png";
+import { Link } from "react-router";
 
 export default function SignupPage() {
   return (
@@ -29,7 +30,7 @@ export default function SignupPage() {
           <button>Sign Up</button>
 
           <p className="login-text">
-            Already a user? <span>Login</span>
+            Already a user? <Link to="/login">Login</Link>
           </p>
         </div>
       </div>

@@ -98,3 +98,13 @@
     color: #6a0dad;
     cursor: pointer;
 }
+/*Sign Up Link*/
+.login-text a {
+  color: #6f00a8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-text a:hover {
+  text-decoration: underline;
+}

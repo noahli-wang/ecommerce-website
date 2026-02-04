@@ -8,3 +8,13 @@
   font-size: 15px;
   color: #666;
 }
+
+
+.navigation .nav-link {
+  text-decoration: none;
+  color: #666;
+}
+
+.nav-link:hover {
+  color: #6f00a8;
+}
