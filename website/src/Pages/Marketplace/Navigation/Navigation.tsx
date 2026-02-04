@@ -5,7 +5,7 @@ export default function Navigation() {
   return (
     <nav className="navigation">
       <Link to="/" className="nav-link">Marketplace</Link>
-      <Link to="/signup" className="nav-link">Sign Up</Link>
+      <Link to="/login" className="nav-link">Login</Link>
     </nav>
   );
 }

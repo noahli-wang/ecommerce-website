@@ -1,0 +1,106 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+}
+.purple-panel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #6f00b8 0%, #7a0bc0 100%);
+  flex: 1;
+  width: 100%;
+}
+.login-logo {
+  width: clamp(72px, 8vw, 120px);
+  height: auto;
+  margin: 0;              /* fix your typo: margin-left, not margin: left */
+  display: block;
+
+}
+
+.white-panel{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #ffffff;
+    padding-top: 120px;
+}
+
+
+.login-card{
+    width: 100%;
+    max-width: 360px;
+    background: #ffffff;
+    padding: 32px 28px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+
+.login-card h2{
+    margin-bottom:12px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.login-card input{
+    height: 44px;
+    padding: 0 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    outline: none;
+    font-size: 14px;
+}
+
+/*Sign In Button*/
+.login-card input:focus {
+     border-color: #6f00a8;
+}  
+
+
+/*Sign In Button*/
+.login-card button{
+    height: 44px;
+    margin-top: 10px;
+    background: #6f00a8;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.05s ease, opacity 0.15s ease;
+}
+
+/*Sign In Button Hover Effect*/
+.login-card button:hover{
+    opacity: 0.9;
+}
+
+/*Sign In Button Active Effect*/
+.login-card button:active{
+    transform: translateY(1px);
+}
+
+
+.signup-text{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 13px;
+    color: 666666;
+}
+/*Sign Up Link*/
+.signup-text a {
+  color: #6f00a8;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}
