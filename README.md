@@ -16,7 +16,7 @@ Frontend (In Progress):
 Backend(Planned):
 - Node.js
 - PostgreSQL
-- Amazon RDS
+- Amazon S1
 
 
 Core Features (Planned):
@@ -25,7 +25,7 @@ Core Features (Planned):
 - Browse and Search Listings
 - Messaging System to contact about the listings
 - Responsive layout for both desktop and mobile
-- Secure data using Amazon RDS
+- Secure data using Amazon S1
 
 
 How to Run:
